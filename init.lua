@@ -701,5 +701,8 @@ vim.keymap.set('n', '<C-s>', require("rest-nvim").run, { desc = "Send current HT
 
 -- Run last HTTP request
 vim.keymap.set('n', '<C-l>', require("rest-nvim").last, { desc = "Send last HTTP request" })
+
+
+vim.keymap.set('n', '<leader>tn', vim.cmd.NvimTreeToggle, { noremap = true, desc = "Toggle Nvim-Tree" })
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
