@@ -697,9 +697,9 @@ vim.keymap.set('n', '<C-k>', '<C-w>k')
 vim.keymap.set('n', '<C-l>', '<C-w>l')
 
 -- Run current HTTP request
-vim.keymap.set('n', '<leader>fc', require("rest-nvim").run, { desc = "Send current HTTP request" })
+vim.keymap.set('n', '<C-s>', require("rest-nvim").run, { desc = "Send current HTTP request" })
 
 -- Run last HTTP request
-vim.keymap.set('n', '<leader>fl', require("rest-nvim").last, { desc = "Send last HTTP request" })
+vim.keymap.set('n', '<C-l>', require("rest-nvim").last, { desc = "Send last HTTP request" })
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

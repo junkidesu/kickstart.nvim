@@ -6,7 +6,7 @@ return {
     require("rest-nvim").setup({
       result_split_horizontal = false,
       -- Keep the http file buffer above|left when split horizontal|vertical
-      result_split_in_place = false,
+      result_split_in_place = true,
       -- stay in current windows (.http file) or change to results window (default)
       stay_in_current_window_after_split = false,
       -- Skip SSL verification, useful for unknown certificates
