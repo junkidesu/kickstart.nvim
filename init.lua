@@ -196,6 +196,7 @@ require('lazy').setup({
     },
   },
 
+  --[[
   {
     -- Theme inspired by Atom
     'navarasu/onedark.nvim',
@@ -204,6 +205,7 @@ require('lazy').setup({
       vim.cmd.colorscheme 'onedark'
     end,
   },
+  ]]
 
   {
     -- Set lualine as statusline
